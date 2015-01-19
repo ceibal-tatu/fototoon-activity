@@ -598,7 +598,8 @@ else:
 SCREEN_WIDTH = Gdk.Screen.width() - scrollbar_width - 5
 BOX_HEIGHT = 450
 
-THUMB_SIZE = activity.PREVIEW_SIZE
+#THUMB_SIZE = activity.PREVIEW_SIZE
+THUMB_SIZE = (300,225)
 
 
 class Page(Gtk.VBox):
